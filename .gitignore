@@ -50,4 +50,4 @@ Makefile
 
 
 build-aux
-shared-mul.pc
+giella-shared-mul.pc

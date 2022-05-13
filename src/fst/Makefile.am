@@ -17,7 +17,7 @@
 
 SUBDIRS = stems
 
-pkgsrcfstdir=$(pkgdatadir)/src/fst/
+pkgsrcfstdir=$(datadir)/giella/shared-mul/src/fst/
 pkgsrcfst_DATA=url.lexc
 
 if CAN_HFST_LEXC

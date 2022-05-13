@@ -1,6 +1,6 @@
 ## Process this file with autoconf to produce configure script
 
-## Copyright (C) 2011 Samediggi
+## Copyright (C) 2011–2022 Samediggi
 
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
 
 ## You should have received a copy of the GNU General Public License
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
-AC_INIT([shared-mul], [0.0.1], [bugs@divvun.no], [shared-mul], [http://divvun.no])
+AC_INIT([giella-shared-mul], [0.0.1], [bugs@divvun.no], [giella-shared-mul], [http://divvun.no])
 AC_CONFIG_AUX_DIR([build-aux])
 AM_INIT_AUTOMAKE([1.9 tar-pax -Wall -Werror foreign])
 

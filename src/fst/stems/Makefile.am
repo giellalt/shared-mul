@@ -15,5 +15,5 @@
 ## You should have received a copy of the GNU General Public License
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-pkgsrcfststemsdir=$(pkgdatadir)/src/fst/
+pkgsrcfststemsdir=$(datadir)/giella/shared-mul/src/fst/stems/
 pkgsrcfststems_DATA=punctuation.lexc symbols.lexc
