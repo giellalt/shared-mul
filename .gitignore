@@ -51,3 +51,4 @@ Makefile
 
 build-aux
 giella-shared-mul.pc
+.DS_Store
