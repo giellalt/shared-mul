@@ -1,0 +1,25 @@
+!! this lexicon is not part of the shared lexcies but an example of what
+!! you need in language specific stuff for the shared parts to work and
+!! it is also automatically tested for in case of someone breaks the shared
+!! stuffs.
+
+Multichar_Symbols
+
++TEL +URL +Gen +Sg +URL +Num +Arab +Use/Circ
+
+
+LEXICON Root
+
+0    telephones ;
+
+
+
+LEXICON telephoneNumInflections
+!! for example allow 's possessive for telephone numbers like this:
+0   #   ;
++Gen+Sg:'s  #   ;   !!= `@CODE@`
+
+LEXICON telephoneURLInflections
+
+0   #   ;
+

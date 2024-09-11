@@ -22,6 +22,7 @@ pkgsrcfst_DATA=url.lexc
 
 if CAN_HFST_LEXC
 check-local:
-	$(HFST_LEXC) -v url.lexc
+	$(HFST_LEXC) --Werror -v url.lexc -o /dev/null
+	$(HFST_LEXC) --Werror -v testroot.lexc stems/telephone.lexc -o /dev/null
 endif
 

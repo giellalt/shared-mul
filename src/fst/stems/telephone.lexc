@@ -1,0 +1,38 @@
+!! Lexica for recognising telephone numbers.
+!! Language independent, if you need to compound or inflect telephone
+!! numbers, create a language specific version.
+
+
+LEXICON telephones
+
++       countrycodes    ;   ! +358 050 ...
+%0%0    countrycodes    ;   ! 00358 050 ...
+%0%0%   countrycodes    ;   ! 00 358 ...
+0       areacodes       ;   ! 050 ...
+tel%:   tel-URL         ;   ! tel:+358-50-55555555 in URL standard RFC 3966
+
+
+LEXICON tel-URL
+
+< [%0|1|2|3|4|5|6|7|8|9] [0|1|2|3|4|5|6|7|8|9|%-]* > telephoneURLTags ;
+
+LEXICON countrycodes
+
+< [1|2|3|4|5|6|7|8|9] ([%0|1|2|3|4|5|6|7|8|9]) ([%0|1|2|3|4|5|6|7|8|9]) ([% | %-]) > areacodes ; ! 1-999 (kind of)
+
+LEXICON areacodes
+
+< %( %0 %) [%0|1|2|3|4|5|6|7|8|9]^2,4 ([% | %-]) > localcodes   ;   ! (0)50
+< [%0|1|2|3|4|5|6|7|8|9]^2,5 ([% | %-]) > localcodes ;   ! 050, 921
+
+LEXICON localcodes
+
+< [%0|1|2|3|4|5|6|7|8|9] [%0|1|2|3|4|5|6|7|8|9|% |%-]* [%0|1|2|3|4|5|6|7|8|9]  > telephoneNumTags ;  ! e.g. 12 34 56 78, 123-45-678
+
+LEXICON telephoneNumTags
+
++Num+Arab+Use/Circ+TEL:0    telephoneNumInflections    ;
+
+LEXICON telephoneURLTags
+
++URL+TEL:0      telephoneURLInflections ;
