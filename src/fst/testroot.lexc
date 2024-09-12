@@ -6,12 +6,13 @@
 Multichar_Symbols
 
 +TEL +URL +Gen +Sg +URL +Num +Arab +Use/Circ
-
++N +Sym
 
 LEXICON Root
 
 0    telephones ;
-
+0   Punctuation ;
+0   Symbols ;
 
 
 LEXICON telephoneNumInflections
@@ -23,3 +24,11 @@ LEXICON telephoneURLInflections
 
 0   #   ;
 
+LEXICON Noun_symbols_never_inflected
+
++N+Sym:0    #   ;
+
+LEXICON Noun_symbols_possibly_inflected
+
++N+Sym:0    #   ;
++N+Sym+Gen+Sg:'s    #   ;
