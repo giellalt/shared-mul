@@ -14,9 +14,8 @@ LEXICON Root
 0   Punctuation ;
 0   Symbols ;
 
-
 LEXICON telephoneNumInflections
-!! for example allow 's possessive for telephone numbers like this:
+! for example allow 's possessive for telephone numbers like this:
 0   #   ;
 +Gen+Sg:'s  #   ;   !!= `@CODE@`
 
@@ -29,6 +28,7 @@ LEXICON Noun_symbols_never_inflected
 +N+Sym:0    #   ;
 
 LEXICON Noun_symbols_possibly_inflected
-
+! for example allow 's possessive for noun symbols like this:
 +N+Sym:0    #   ;
 +N+Sym+Gen+Sg:'s    #   ;
+
