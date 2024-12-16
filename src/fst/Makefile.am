@@ -18,7 +18,7 @@
 SUBDIRS = stems
 
 pkgsrcfstdir=$(datadir)/giella/shared-mul/src/fst/
-pkgsrcfst_DATA=url.lexc
+pkgsrcfst_DATA=url.lexc emojis.lexc
 
 if CAN_HFST_LEXC
 check-local:
