@@ -32,7 +32,7 @@ AC_OUTPUT
 cat<<EOF
 -- Building $PACKAGE_STRING:
 
-Running make here will probably do nothing... make install may install the
-sources but they can just as easily be used in place so it is not necessary at
-the moment.
+You can now run make and make check to update some of the files and ensure that
+the shared files are kind of compilable. Make install will install the shared
+data to a known location.
 EOF
