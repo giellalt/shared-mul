@@ -52,6 +52,7 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
    ·      PunctCont ;
    -:∑-   PunctCont ; ! hyphen
   --:∑-∑- PunctCont ; ! double hyphen
+   ‒      PunctCont ; ! figure dash
    –      PunctCont ; ! endash
    —      PunctCont ; ! emdash
    ―      PunctCont ; ! horizontal bar
