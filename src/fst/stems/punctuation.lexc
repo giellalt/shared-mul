@@ -50,13 +50,13 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
    ·      PunctCont ;
    ּ       PunctCont ; ! HEBREW POINT DAGESH OR MAPIQ
    ·      PunctCont ;
-   -:∑-   PunctCont ; ! hyphen
-  --:∑-∑- PunctCont ; ! double hyphen
-   ‒      PunctCont ; ! figure dash
-   –      PunctCont ; ! endash
+   -:∑-   PunctMiddle ; ! hyphen
+  --:∑-∑- PunctCont   ; ! double hyphen
+   ‒      PunctMiddle ; ! figure dash
+   –      PunctMiddle ; ! endash
    —      PunctCont ; ! emdash
    ―      PunctCont ; ! horizontal bar
-   −      PunctCont ;
+   −      PunctCont ; ! minus sign, U+2212
    _      PunctCont ;
    =      PunctCont ;
    ≈      PunctCont ;
@@ -129,6 +129,13 @@ LEXICON PunctLeft
 
 LEXICON PunctRght
  +PUNCT+RIGHT: PunctEnd ;
+
+LEXICON PunctMiddle   !!= * __@CODE@__ tags punctuation that can be placed in
+					  !!  the middle of some text, with or without space arond,
+					  !!  to indicate a range of something: 9.10.-11.12.2025.
+					  !!  They do not have to be used like this, often they are
+					  !!  not, but only these have this potential.
+ +PUNCT+MIDDLE: PunctEnd ;
 
 LEXICON PunctEnd   !!= * __@CODE@__ leads to # only.
   # ;
