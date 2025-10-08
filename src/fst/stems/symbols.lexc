@@ -39,34 +39,34 @@ LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that infle
    ☐    Noun_symbols_never_inflected       ;
    ⚬    Noun_symbols_never_inflected       ;
   %#:#7 Noun_symbols_never_inflected       ;
-   №    Noun_symbols_never_inflected ;
+   №    Noun_symbols_never_inflected       ;
 !  º    Noun_symbols_never_inflected       ; !Foreløpig, til dette fikset
-   ‰     Noun_symbols_never_inflected       ;
-   ●     Noun_symbols_never_inflected       ;
-   −     Noun_symbols_never_inflected       ;
-   ¬     Noun_symbols_never_inflected       ;
-   %@    Noun_symbols_never_inflected       ; ! @
+   ‰    Noun_symbols_never_inflected       ;
+   ●    Noun_symbols_never_inflected       ;
+   −    Noun_symbols_never_inflected       ;
+   ¬    Noun_symbols_never_inflected       ;
+   %@   Noun_symbols_never_inflected       ; ! @
 
 !! Symbols from Mari OCR reading. TODO: Remove non-symbols + merge with list above
 
-   \   Noun_symbols_never_inflected       ;
-   ¢   Noun_symbols_never_inflected       ;
-   ¦   Noun_symbols_never_inflected       ;
-   ª   Noun_symbols_never_inflected       ;
-   ×   Noun_symbols_never_inflected       ;
-   ‡   Noun_symbols_never_inflected       ;
-   ™   Noun_symbols_never_inflected       ;
-   →   Noun_symbols_never_inflected       ;
-   ■   Noun_symbols_never_inflected       ;
-   □   Noun_symbols_never_inflected       ;
-   ▲   Noun_symbols_never_inflected       ;
-   ►   Noun_symbols_never_inflected       ;
-   ▼   Noun_symbols_never_inflected       ;
-   ★   Noun_symbols_never_inflected       ;
-   ☆   Noun_symbols_never_inflected       ;
-   ☺   Noun_symbols_never_inflected       ;
-   ✓   Noun_symbols_never_inflected       ; ! check mark
-   ❖   Noun_symbols_never_inflected       ;
+   \    Noun_symbols_never_inflected       ;
+   ¢    Noun_symbols_never_inflected       ;
+   ¦    Noun_symbols_never_inflected       ;
+   ª    Noun_symbols_never_inflected       ;
+   ×    Noun_symbols_never_inflected       ;
+   ‡    Noun_symbols_never_inflected       ;
+   ™    Noun_symbols_never_inflected       ;
+   →    Noun_symbols_never_inflected       ;
+   ■    Noun_symbols_never_inflected       ;
+   □    Noun_symbols_never_inflected       ;
+   ▲    Noun_symbols_never_inflected       ;
+   ►    Noun_symbols_never_inflected       ;
+   ▼    Noun_symbols_never_inflected       ;
+   ★    Noun_symbols_never_inflected       ;
+   ☆    Noun_symbols_never_inflected       ;
+   ☺    Noun_symbols_never_inflected       ;
+   ✓    Noun_symbols_never_inflected       ; ! check mark
+   ❖    Noun_symbols_never_inflected       ;
 
 ! These symbols are private use area U+F020 - U+F0FC
 ! (i.w. F000 to F0FF). These could be removed rather than analysed.
