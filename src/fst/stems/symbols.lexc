@@ -94,7 +94,7 @@ LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that infle
 
 
 
-!! Smileys
+! Smileys
  %:-) Noun_symbols_never_inflected ;
  %:)  Noun_symbols_never_inflected ;
  %:-| Noun_symbols_never_inflected ;
@@ -102,6 +102,6 @@ LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that infle
  %:-( Noun_symbols_never_inflected ;
  %:(  Noun_symbols_never_inflected ;
 
-!! Emojies
+! Emojies
  😄 Noun_symbols_never_inflected ;
  🙂 Noun_symbols_never_inflected ;
