@@ -70,27 +70,27 @@ LEXICON Symbols !!≈ __@CODE@__ contains symbols of two types: those that infle
 
 ! These symbols are private use area U+F020 - U+F0FC
 ! (i.w. F000 to F0FF). These could be removed rather than analysed.
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
-      Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
+!     Noun_symbols_never_inflected       ;
 
 
 
