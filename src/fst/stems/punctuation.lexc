@@ -82,8 +82,8 @@ LEXICON Punctuation   !!= * __@CODE@__ contains the list
        ]        PunctRght ;
        {        PunctLeft ;
        }        PunctRght ;
-      %<:%[%<%] PunctLeft ;
-      %>:%[%>%] PunctRght ;
+      %<:[%<]   PunctLeft ;
+      %>:[%>]   PunctRght ;
        «:«7     PunctLeft ;
        »:»7     PunctRght ;
        ‹        PunctLeft ;
