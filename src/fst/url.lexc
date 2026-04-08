@@ -104,8 +104,8 @@ LEXICON enddomain
     endlex ;
 
 LEXICON path
- %/ endlex      ;
- %/ pathcontent ;
+ / endlex      ;
+ / pathcontent ;
 
 ! The file/here.doc part of http://user.name@www.domain.com/file/here.doc
 LEXICON pathcontent
