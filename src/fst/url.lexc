@@ -150,7 +150,6 @@ LEXICON topdomainlist
  ai                 enddomain ;
  al                 enddomain ;
  am                 enddomain ;
- an                 enddomain ;
  ao                 enddomain ;
  aq                 enddomain ;
  ar                 enddomain ;
@@ -169,11 +168,9 @@ LEXICON topdomainlist
  bh                 enddomain ;
  bi                 enddomain ;
  bj                 enddomain ;
- bl                 enddomain ;
  bm                 enddomain ;
  bn                 enddomain ;
  bo                 enddomain ;
- bq                 enddomain ;
  br                 enddomain ;
  bs                 enddomain ;
  bt                 enddomain ;
@@ -209,7 +206,6 @@ LEXICON topdomainlist
  ec                 enddomain ;
  ee                 enddomain ;
  eg                 enddomain ;
- eh                 enddomain ;
  er                 enddomain ;
  es                 enddomain ;
  et                 enddomain ;
@@ -285,7 +281,6 @@ LEXICON topdomainlist
  mc                 enddomain ;
  md                 enddomain ;
  me                 enddomain ;
- mf                 enddomain ;
  mg                 enddomain ;
  mh                 enddomain ;
  mk                 enddomain ;
@@ -370,7 +365,6 @@ LEXICON topdomainlist
  tm                 enddomain ;
  tn                 enddomain ;
  to                 enddomain ;
- tp                 enddomain ;
  tr                 enddomain ;
  tt                 enddomain ;
  tv                 enddomain ;
@@ -379,7 +373,6 @@ LEXICON topdomainlist
  ua                 enddomain ;
  ug                 enddomain ;
  uk                 enddomain ;
- um                 enddomain ;
  us                 enddomain ;
  uy                 enddomain ;
  uz                 enddomain ;
