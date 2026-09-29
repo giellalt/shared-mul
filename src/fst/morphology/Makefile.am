@@ -15,4 +15,16 @@
 ## You should have received a copy of the GNU General Public License
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-SUBDIRS = morphology
+SUBDIRS = stems
+
+pkgsrcfstdir=$(datadir)/giella/shared-mul/src/fst/
+pkgsrcfst_DATA=url.lexc emojis.lexc
+
+if CAN_HFST_LEXC
+check-local:
+	$(HFST_LEXC) -Wall -Werror -v url.lexc -o /dev/null
+	$(HFST_LEXC) -Wall -Werror -v emojis.lexc -o /dev/null
+	$(HFST_LEXC) -Wall -Werror -v testroot.lexc \
+		stems/telephone.lexc stems/symbols.lexc \
+		stems/punctuation.lexc -o /dev/null
+endif
